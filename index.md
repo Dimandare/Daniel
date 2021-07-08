@@ -14,7 +14,7 @@ NOW,
 ### My Project
 
 This is my latest Python project
-from My team.
+from My team Five(5).
 Daniel Dimas Indarputra (Me,V3420024),
 Ammar Jaddid Habibullah (V3420010),
 Bagas Pratama          (V3420016).
