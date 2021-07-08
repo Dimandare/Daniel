@@ -1,5 +1,5 @@
 ## Welcome to Daniel  Pages
-Hi, I’m @Dimandare *My Real Name Daniel Dimas Indarputra
+#Hi, I’m @Dimandare *My Real Name Daniel Dimas Indarputra
 
 *I’m interested in 
 * Java Development
@@ -16,8 +16,8 @@ NOW,
 This Is my latest Python project
 from My team
 Daniel Dimas Indarputra (V3420024),
-Ammar Jadid Habibulah (V3420010),
-Bagas Pratama (V342009)
+Ammar Jaddid Habibullahhhhh (V3420010),
+Bagas Pratamax AFK (V3420016)
 
 ```markdown
 Syntax highlighted code block
