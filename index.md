@@ -1,28 +1,80 @@
-## Welcome to GitHub Pages
+## Welcome to Daniel  Pages
+Hi, I’m @Dimandare *My Real Name Daniel Dimas Indarputra
 
-You can use the [editor on GitHub](https://github.com/Dimandare/Dimandare/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+*I’m interested in 
+* Java Development
+*  Website Development(PHP,HTML,CSS)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ I’m currently learning Python Programming
+
+NOW,
+ I’m looking to collaborate on Python next project
+
+How To reach me?
+*here 
+*Instagram : @Xeviar.co 
+*Github : @Dimandare
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This Is my latest project
+from My team
+Daniel Dimas Indarputra (V3420024)
+Ammar Jadid Habibulah (V3420010)
+Bagas Pratama (V342009)
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+ def tampilTransaksi(self):
+        query = QSqlQuery("SELECT a.nik, a.nama, a.gender, t.* FROM anggota a, transaksi t WHERE a.nik=t.nik AND t.id_jenis=4")
+        self.model.setQuery(query)
+        self.model.setEditStrategy(QSqlTableModel.OnFieldChange)
+        self.model.select()
+        self.model.setHeaderData(0, Qt.Horizontal, "Kode Anggota")
+        self.model.setHeaderData(1, Qt.Horizontal, "Nama")
+        self.model.setHeaderData(2, Qt.Horizontal, "Jenis Kelamin")
+        self.model.setHeaderData(6, Qt.Horizontal, "Jumlah Penarikan")
+        self.model.setHeaderData(7, Qt.Horizontal, "Tanggal Penarikan")
+        self.tableView.setModel(self.model)
 
-- Bulleted
-- List
+        self.tableView.setColumnHidden(3,True)
+        self.tableView.setColumnHidden(4,True)
+        self.tableView.setColumnHidden(5,True)
+        self.tableView.setColumnWidth(0, 150)
+        self.tableView.setColumnWidth(1, 170)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
+    def simpanPenarikan(self):
+        nik = self.nik.text()
+        jumlah = self.jumlah.text()
+        tanggal = self.tanggal.text().replace('/','-')
+        if nik == "" or jumlah == "" or tanggal == "":
+            self.notif.setText('Masukkan data dengan benar !')
+        elif len(nik) != 16:
+            self.notif.setText('Nik tidak benar !')
+        else:
+            self.notif.setText('')
+            query = QSqlQuery()
+            query.exec_("select nik from simpanan where nik='" + nik + "'")
+            if query.next():
+                query.exec_("insert into transaksi values(null,'" + nik + "','4','" + jumlah + "','" + tanggal + "')")
+                query.exec_("select jumlah from simpanan where nik='" + nik + "'")
+                if query.next():
+                    hasil = query.record().value(0)
+                    hasil -= int(jumlah)
+                    if hasil < 0:
+                        self.message.setText(" ** Penarikan melebihi jumlah simpanan **")
+                        self.message.exec_()
+                    else:
+                        query.exec_("update simpanan set jumlah='" + str(hasil) + "' where nik='" + nik + "'")
+                        self.message.setText(" ** Data berhasil ditambahkan ke database **")
+                        self.message.exec_()
+                        self.tampilTransaksi()
+                        self.clear()
+                        self.main.dfsimpan.tampilSimpanan()
+            else:
+                self.message.setText(" ** Anggota belum pernah menyimpan **")
+                self.message.exec_()
 [Link](url) and ![Image](src)
 ```
 
