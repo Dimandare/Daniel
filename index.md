@@ -13,11 +13,11 @@ NOW,
 
 ### My Project
 
-This Is my latest Python project
-from My team
+This is my latest Python project
+from My team.
 Daniel Dimas Indarputra (V3420024),
-Ammar Jaddid Habibullahhhhh (V3420010),
-Bagas Pratamax AFK (V3420016)
+Ammar Jaddid Habibullah (V3420010),
+Bagas Pratama          (V3420016).
 
 ```markdown
 Syntax highlighted code block
