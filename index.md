@@ -20,7 +20,7 @@ Ammar Jaddid Habibullah (V3420010),
 Bagas Pratama          (V3420016).
 
 ```markdown
-Syntax highlighted code block
+Contoh code dari program yang kami buat
 
  def tampilTransaksi(self):
         query = QSqlQuery("SELECT a.nik, a.nama, a.gender, t.* FROM anggota a, transaksi t WHERE a.nik=t.nik AND t.id_jenis=4")
