@@ -74,7 +74,9 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [My Profile](https://github.com/Dimandare).
+For more details about me see [My Profile](https://github.com/Dimandare).
+For more code detail [code](https://github.com/Dimandare/Daniel).
+
 
 
 
