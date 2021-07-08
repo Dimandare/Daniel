@@ -1,0 +1,36 @@
+Pertama Install dulu python
+kedua install paket python
+jika menggunakan python diatas versi 3.3 keatas bisa langsung menggunakan perintah di bawah ini
+
+pip install PyQt5  atau https://pypi.org/project/PyQt5/
+
+(silahkan masuk ke cmd sebagai administrator)kemudian silahkan klik enter dengan perintah di atas
+Nb: Pastikan Anda harus terhubung Ke internet saat menginstalnya
+kemudian silahkan klik file yang bernama
+
+	"MAIN.py"
+
+kemudian silahkan login pertama:
+Admin1
+username: daniel
+password daniel
+Admin2
+username: habib
+password : habib
+Admin3
+username: bagas
+password: bagas
+
+atau bisa menggunakan akun yang lain yang telah terdaftar di database kami
+
+untuk bisa mengubah supaya login ke menu awal terlebih dahulu di atas ini (username, password),
+
+setelah login silahkan mengganti Admin
+
+Nb: jika ada keluhan atau pertanyaan bisa hub : 
+Email1: daniel_dimas92@student.uns.ac.id
+Email2: habibjaddid@student.uns.ac.id
+Instagram1: @habib_jaddid
+Instagram2: @xeviar.co
+
+by: Kopera
