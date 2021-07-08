@@ -11,16 +11,16 @@ NOW,
  I’m looking to collaborate on Python next project
 
 How To reach me?
-*here 
-*Instagram : @Xeviar.co 
-*Github : @Dimandare
+here 
+Instagram : @Xeviar.co 
+Github : @Dimandare
 
 ### Markdown
 
-This Is my latest project
+This Is my latest Python project
 from My team
-Daniel Dimas Indarputra (V3420024)
-Ammar Jadid Habibulah (V3420010)
+Daniel Dimas Indarputra (V3420024),
+Ammar Jadid Habibulah (V3420010),
 Bagas Pratama (V342009)
 
 ```markdown
