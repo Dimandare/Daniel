@@ -74,7 +74,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://github.com/Dimandare/Dimandare).
+For more details see [My Profile](https://github.com/Dimandare).
 
 
 
