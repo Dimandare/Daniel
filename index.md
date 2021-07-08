@@ -11,10 +11,10 @@ NOW,
  I’m looking to collaborate on Python next project
 
 
-### My Project
+### Project Kelompok 5
 
 This is my latest Python project
-from My team Five(5).
+from My team .
 Daniel Dimas Indarputra (Me,V3420024),
 Ammar Jaddid Habibullah (V3420010),
 Bagas Pratama          (V3420016).
